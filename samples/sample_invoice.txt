@@ -1,0 +1,4 @@
+Invoice #2026-001
+Vendor: Acme Supplies
+Total: 499.99
+Due Date: 2026-05-20

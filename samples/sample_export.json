@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "filename": "sample_invoice.txt",
+    "status": "completed",
+    "finalized_data": {
+      "title": "Sample Invoice",
+      "category": "Finance",
+      "summary": "Invoice document for office supplies.",
+      "keywords": ["invoice", "finance", "acme"]
+    },
+    "updated_at": "2026-05-06T10:00:00Z"
+  }
+]
