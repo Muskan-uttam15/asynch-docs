@@ -20,6 +20,9 @@ os.makedirs(settings.upload_dir, exist_ok=True)
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Async Document Processing API")
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
